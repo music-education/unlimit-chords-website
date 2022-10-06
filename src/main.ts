@@ -22,10 +22,18 @@ import '@ionic/vue/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import './theme/global.css';
+
+// scroll module
+import VueVirtualScroller from 'vue3-virtual-scroller';
+import 'vue3-virtual-scroller/dist/vue3-virtual-scroller.css';
+import { DynamicScroller } from 'vue3-virtual-scroller';
 
 const app = createApp(App)
   .use(IonicVue)
-  .use(router);
+  .use(router)
+  .use(VueVirtualScroller)
+  .component('DynamicScroller', DynamicScroller);
   
 router.isReady().then(() => {
   app.mount('#app');
