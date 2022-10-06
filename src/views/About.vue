@@ -19,8 +19,7 @@
         <br>
         <p>Play any chord on the guitar</p>
         <br>
-        <br>
-        <br>
+        <p>Download the BETA version by clicking the link below on an iPhone 6 or higher</p>
         <br>
         <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="">
         <ion-icon :icon="download" size="large"></ion-icon>
@@ -39,7 +38,7 @@
 <script lang="ts">
 import { IonContent, IonHeader, IonPage, IonToolbar, IonIcon, IonButton } from '@ionic/vue';
 import { defineComponent } from 'vue';
-import { logoGithub, logoLinkedin } from 'ionicons/icons';
+import { download } from 'ionicons/icons';
 
 export default defineComponent({
   name: 'Home',

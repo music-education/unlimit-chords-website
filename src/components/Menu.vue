@@ -14,19 +14,10 @@
         <router-link to="/about" @click="closeMenu()">
           <ion-item>About</ion-item>
         </router-link>
-        <router-link to="/experience" @click="closeMenu()">
-          <ion-item>Experience</ion-item>
-        </router-link>
-        <router-link to="/projects" @click="closeMenu()">
-          <ion-item>Projects</ion-item>
-        </router-link>
-        <router-link to="/resume" @click="closeMenu()">
-          <ion-item>Resume</ion-item>
-        </router-link>
         <router-link to="/contact" @click="closeMenu()">
           <ion-item>Contact</ion-item>
         </router-link>
-
+        
       </ion-list>
     </ion-content>
   </ion-menu>
