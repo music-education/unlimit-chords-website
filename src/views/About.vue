@@ -19,14 +19,16 @@
         <br>
         <p>Play any chord on the guitar</p>
         <br>
-        <p>Download the BETA version by clicking the link below on an iPhone 6 or higher</p>
         <br>
+        <ion-label><p>Download Test Flight App</p></ion-label>
+        <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="https://apps.apple.com/us/app/testflight/id899247664">
+        <ion-icon :icon="download" size="large" label="Download Test Flight App"></ion-icon>
+        </ion-button>
+        <br>
+        <ion-label><p>Download Unlimit Chords BETA</p></ion-label>
         <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="">
         <ion-icon :icon="download" size="large"></ion-icon>
         </ion-button>
-        <!-- <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="https://uk.linkedin.com/in/gregdavies91">
-        <ion-icon :icon="logoLinkedin" size="large"></ion-icon>
-        </ion-button> -->
               
       </div>
 
@@ -36,7 +38,7 @@
 </template>
 
 <script lang="ts">
-import { IonContent, IonHeader, IonPage, IonToolbar, IonIcon, IonButton } from '@ionic/vue';
+import { IonContent, IonHeader, IonPage, IonToolbar, IonIcon, IonButton, IonLabel } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import { download } from 'ionicons/icons';
 
@@ -48,7 +50,8 @@ export default defineComponent({
     IonPage,
     IonToolbar,
     IonIcon,
-    IonButton
+    IonButton,
+    IonLabel
   },
   setup () {
     return {
