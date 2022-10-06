@@ -1,0 +1,7 @@
+{
+  "name": "Unlimit Chords",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
