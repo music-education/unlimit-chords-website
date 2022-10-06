@@ -15,19 +15,19 @@
     <ion-content :fullscreen="true">
     
       <div id="container">
-        <h1>Greg Davies - Software Developer</h1>
+        <h1>Unlimit Chords</h1>
         <br>
-        <p>This portfolio was made using Ionic Vue 3 and Node.js</p>
-        <br>
-        <br>
+        <p>Play any chord on the guitar</p>
         <br>
         <br>
-        <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="https://github.com/gregdavies91">
-        <ion-icon :icon="logoGithub" size="large"></ion-icon>
+        <br>
+        <br>
+        <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="">
+        <ion-icon :icon="download" size="large"></ion-icon>
         </ion-button>
-        <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="https://uk.linkedin.com/in/gregdavies91">
+        <!-- <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="https://uk.linkedin.com/in/gregdavies91">
         <ion-icon :icon="logoLinkedin" size="large"></ion-icon>
-        </ion-button>
+        </ion-button> -->
               
       </div>
 
@@ -53,8 +53,7 @@ export default defineComponent({
   },
   setup () {
     return {
-      logoGithub,
-      logoLinkedin
+      download
     }
   }
 });
