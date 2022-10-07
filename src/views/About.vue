@@ -26,7 +26,7 @@
         </ion-button>
         <br>
         <ion-label><p>Download Unlimit Chords BETA</p></ion-label>
-        <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="">
+        <ion-button fill="clear" color="dark" target="_blank" rel="noopener noreferrer" href="https://testflight.apple.com/join/uIanyIEK">
         <ion-icon :icon="download" size="large"></ion-icon>
         </ion-button>
               
