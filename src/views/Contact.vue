@@ -17,7 +17,7 @@
       <div id="formcontainer">
         <h2>Contact</h2>
         <p>Please send us a message and we'll get back to you</p>
-        <form action="https://formsubmit.co/greg@unlimit.co.uk" method="POST">
+        <form action="https://formsubmit.co/feb45c732c4a51d92e1d721ecaf0c184" method="POST">
           <ion-list>
             <ion-item>
               <ion-label>Name: </ion-label> 
