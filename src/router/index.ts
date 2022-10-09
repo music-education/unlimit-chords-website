@@ -1,11 +1,8 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import { RouteRecordRaw } from 'vue-router';
-// import Home from '../App.vue'
-import About from '../views/About.vue'
+import About from '../views/About.vue';
 import Contact from '../views/Contact.vue';
-
-// import unity from '../components/Unity.vue';
-
+import PageNotFound from '../views/PageNotFound.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -21,6 +18,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'PageNotFound',
+    component: PageNotFound
   }
 ]
 
